@@ -8,11 +8,11 @@
 #     marge_json_path:  请填写网络地址的json文件，用于合并，不带空格！！！
 spider_settings:
   enable: true
-  json_url: "https://blog.liushen.fun/friend.json"
+  json_url: "https://blog.xcodey.com/friend.json"
   article_count: 5
   merge_result:
     enable: false
-    merge_json_url: "https://fc.liushen.fun"
+    merge_json_url: "https://fcapi.catoi.cn"
 
 # 邮箱推送功能配置，暂未实现，等待后续开发
 # 解释：每天为指定邮箱推送所有友链文章的更新，仅能指定一个
@@ -22,7 +22,7 @@ spider_settings:
 #   body_template:      邮件正文的 HTML 模板文件
 email_push:
   enable: false
-  to_email: recipient@example.com
+  to_email: di277160461@qq.com
   subject: "今天的 RSS 订阅更新"
   body_template: "rss_template.html"
 
@@ -36,12 +36,12 @@ email_push:
 #     title:            你的博客标题，如果启用了推送，用于生成邮件主题
 rss_subscribe:
   enable: true
-  github_username: willow-god
+  github_username: shining-orange
   github_repo: Friend-Circle-Lite
-  your_blog_url: https://blog.liushen.fun/
+  your_blog_url: https://blog.xcodey.com/
   email_template: "./rss_subscribe/email_template.html"
   website_info:
-    title: "清羽飞扬"
+    title: "橘子的个人星球"
 
 # SMTP 配置
 # 解释：使用其中的相关配置实现上面两种功能，若无推送要求可以不配置，请将以上两个配置置为false
@@ -50,9 +50,9 @@ rss_subscribe:
 #   port：              SMTP 端口号
 #   use_tls：           是否使用 tls 加密
 smtp:
-  email: 3162475700@qq.com
-  server: smtp.qq.com
-  port: 587
+  email: di277160461@163.com
+  server: smtp.163.com
+  port: 456
   use_tls: true
 
 # 特殊RSS地址指定，可以置空但是不要删除！
@@ -62,5 +62,15 @@ smtp:
 specific_RSS:
    - name: "阮一峰"
      url: "http://feeds.feedburner.com/ruanyifeng"
+   - name: ".𝙃𝙖𝙣"
+     url: "https://www.vvhan.com/rss.xml" 
+   - name: "CatOi"
+     url: "https://catoi.cn/rss.xml"
+   - name: "Redish101"
+     url: "https://reblog.redish101.top/api/feed"
+   - name: "Yep"
+     url: "https://blog.yep.vin/atom.xml"
+   - name: "LiuShen"
+     url: "https://blog.liushen.fun/atom.xml"
   # - name: "無名小栈"
   #   url: "https://blog.imsyy.top/rss.xml"
