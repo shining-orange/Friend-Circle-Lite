@@ -9,7 +9,7 @@
 spider_settings:
   enable: true
   json_url: "https://blog.xcodey.com/friend.json"
-  article_count: 5
+  article_count: 12
   merge_result:
     enable: false
     merge_json_url: "https://fcapi.catoi.cn"
