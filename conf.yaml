@@ -62,6 +62,8 @@ smtp:
 specific_RSS:
    - name: "阮一峰"
      url: "http://feeds.feedburner.com/ruanyifeng"
+   - name: "嗷呜星球"
+     url: "https://blog.jumaoo.top/atom.xml"
    - name: ".𝙃𝙖𝙣"
      url: "https://www.vvhan.com/rss.xml" 
    - name: "CatOi"
@@ -72,5 +74,3 @@ specific_RSS:
      url: "https://blog.yep.vin/atom.xml"
    - name: "LiuShen"
      url: "https://blog.liushen.fun/atom.xml"
-  # - name: "無名小栈"
-  #   url: "https://blog.imsyy.top/rss.xml"
